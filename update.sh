@@ -4,7 +4,7 @@ date >> updatelog.txt
 
 if [[ $EUID -ne 0 ]]; then
   echo "Run this script again with root permissions. "
-  echo "Execition failed due to insufficient permissions. " >> updatelog.txt
+  echo "Execution failed due to insufficient permissions. " >> updatelog.txt
   exit 1
 fi
 
